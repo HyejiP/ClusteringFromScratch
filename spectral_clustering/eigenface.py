@@ -39,7 +39,7 @@ def print_eigfaces(centered_matrix, eigvals, eigvecs, k):
     return axs
 
 
-################## Below is code for Q2(a) to print out eigenfaces #####################################
+################## Below is code to print out eigenfaces #####################################
 
 
 # load each image file and compose a data matrix for each subject
@@ -79,7 +79,7 @@ axs = print_eigfaces(centered_sub02, eigvals_02, eigvecs_02, k=K)
 plt.show()
 
 
-################## Below is code for Q2(b) for face recognition #####################################
+################## Below is code to perform face recognition #####################################
 
 # load the test images and vectorize pixels
 pixels_01, width, height = load_file('yalefaces/subject01-test.gif')

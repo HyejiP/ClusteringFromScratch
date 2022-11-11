@@ -65,7 +65,7 @@ def plot_2D(z, data, title):
     return ax
 
 
-################### Below is code for Q3.3  ######################################
+################### Plot Adjacency Matrix based on Manhattan Distance ######################################
 
 A = get_adj_matrix_manhattan(data=data, eps=500)
 

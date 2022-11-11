@@ -8,7 +8,7 @@ import math
 mat_file = io.loadmat('isomap.mat')
 data = mat_file['images']
 
-######## Below are helper funcitons that are mainly defined in Q2 for PCA ########
+######## Below are helper funcitons that are mainly defined in PCA ########
 
 def centering(matrix):
     mu = np.mean(matrix, axis=0)

@@ -63,7 +63,7 @@ def plot_2D(z, data, title):
     ax.scatter(z[:,0], z[:,1])
     return ax
 
-################ Below is code for Q3.1 & Q3.2  ##################################
+################ Plot Adjacency Matrix based on Euclidean Distance  ##################################
 
 A = get_adj_matrix(data=data, eps=12) # eps=12 is derived from the below tuning epsilon value portion
 
